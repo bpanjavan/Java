@@ -1,0 +1,21 @@
+package typesPackage;
+
+public class PrimitiveTypes {
+
+	public static void main(String[] args)
+	{
+		
+		byte underByte = -128;		// From -128 to 127	1 byte
+		byte overByte = -128;		// From -128 to 127	1 byte
+		
+		short underShort = -32768; 	// 16 bytes
+		short overShort = 32767;	
+
+		int underInt = -2^32;		// 32 bytes
+		//32,767
+
+		System.out.println(underInt);
+	}
+	
+
+}
